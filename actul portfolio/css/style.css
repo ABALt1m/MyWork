@@ -130,7 +130,7 @@
      cursor: default;
      padding-top: 15px;
      cursor: pointer;
-     letter-spacing: 2px;
+
  }
 
  .tooltip .tooltiptext {
@@ -221,4 +221,3 @@
      font-size: 4.5rem;
      color: rgb(62, 104, 240);
  }
- 

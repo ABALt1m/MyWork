@@ -1,0 +1,77 @@
+ * {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+ }
+
+ .sidebar {
+     position: fixed;
+     width: 250px;
+     height: 100%;
+     transition: all .5s ease;
+     background-position: center;
+ }
+
+ .sidebar header {
+     font-size: 25px;
+     color: #00ccff;
+     text-align: center;
+     line-height: 80px;
+     user-select: none;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     background-color: rgba(255, 255, 255, 0.144);
+
+ }
+
+
+
+ .sidebar ul a {
+     display: block;
+     height: 100%;
+     width: 100%;
+     line-height: 225px;
+     font-size: 40px;
+     color: rgb(255, 255, 255);
+     padding-left: 20px;
+     box-sizing: border-box;
+     transition: .4s;
+     background-color: rgba(255, 255, 255, 0.144);
+ }
+
+ ul li:hover a {
+     padding-left: 50px;
+     color: rgb(0, 255, 255);
+     background-color: rgba(138, 137, 137, 0.397);
+     border: none;
+     border-radius: 20%;
+     box-shadow: 0 0 10px rgb(0, 238, 255);
+
+ }
+
+ .sidebar ul a i {
+     margin-right: 16px;
+ }
+
+ #check {
+     display: none;
+ }
+
+ body {
+     overflow: hidden;
+ }
+
+ .myVideo {
+     position: fixed;
+     right: 0;
+     bottom: 0;
+     min-width: 100%;
+     min-height: 100%;
+ }
+
+ .myphoto{
+     position: absolute;
+     background-color:antiquewhite;
+     
+ }
