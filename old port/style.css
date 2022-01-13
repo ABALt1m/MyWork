@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar {
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    transition: all .5s ease;
+    background-position: center;
+}
+
+.sidebar header {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 75px;
+    user-select: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 225px;
+    font-size: 40px;
+    color: #ffffff;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: .4s;
+
+}
+
+ul li:hover a {
+    padding-left: 50px;
+    color: rgb(250, 250, 250);
+    background-color: #d9dbf721;
+    border: none;
+    border-radius: 20%;
+
+}
+
+.sidebar ul a i {
+    margin-right: 16px;
+}
+
+#check {
+    display: none;
+}
+
+label #btn,
+label #cancel {
+    position: absolute;
+    cursor: pointer;
+    background: #e2e2e2;
+    border-radius: 3px;
+}
+
+label #btn {
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: rgb(12, 3, 3);
+    padding: 6px 12px;
+    transition: all .5s;
+}
+
+label #cancel {
+    z-index: 1111;
+    left: -196px;
+    top: 25px;
+    font-size: 15px;
+    color: #000000;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+
+#check:checked~.sidebar {
+    left: 0;
+}
+
+#check:checked~label #cancel {
+    left: 210px;
+}
+
+#check:checked~label #btn {
+    visibility: hidden;
+}
+
+
+
+section {
+    background: url(AmJYkI.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transition: all .5s;
+
+}
+
+.fa-twitter {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-left: 50vh;
+    position: absolute;
+    margin: 20px;
+    padding: 13px;
+    margin-left: 96%;
+    margin-top: 1.5%;
+}
+
+.fa-instagram {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-left: 50vh;
+    position: absolute;
+    margin: 20px;
+    padding: 13px;
+    margin-left: 92%;
+    margin-top: 1.5%;
+
+}
+
+.fa-instagram:hover {
+    color: rgb(126, 126, 126);
+    transition: 0.5s ease-out;
+    font-size: 2.5em;
+}
+
+.fa-twitter:hover {
+    color: rgb(158, 157, 157);
+    transition: 0.5s ease-out;
+    font-size: 2.5em;
+}
+
+label #btn:hover {
+    color: rgb(131, 131, 131);
+}
+
+label #cancel:hover {
+    color: rgb(128, 128, 128);
+
+}
+
+body {
+    overflow: hidden;
+}
+
+.projects {
+    background: url(background.jpg);
+    background-position: center;
+}
+
+.photo1 {
+    position: absolute;
+    margin-left: 17%;
+}

@@ -1,0 +1,196 @@
+ * {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+ }
+
+ .sidebar {
+     position: fixed;
+     width: 250px;
+     height: 100%;
+     transition: all .5s ease;
+     background-position: center;
+ }
+
+ .sidebar header {
+     font-size: 25px;
+     color: #e97e19;
+     text-align: center;
+     line-height: 80px;
+     user-select: none;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     background-color: rgba(255, 255, 255, 0.144);
+
+ }
+
+
+
+ .sidebar ul a {
+     display: block;
+     height: 100%;
+     width: 100%;
+     line-height: 225px;
+     font-size: 40px;
+     color: rgb(235, 113, 0);
+     padding-left: 40px;
+     box-sizing: border-box;
+     transition: .4s;
+     background-color: rgba(255, 255, 255, 0.144);
+ }
+
+ ul li:hover a {
+     padding-left: 50px;
+     color: rgb(243, 190, 159);
+     background-color: rgba(138, 137, 137, 0.397);
+     border: none;
+     border-radius: 20%;
+
+ }
+
+ .sidebar ul a i {
+     margin-right: 16px;
+ }
+
+ #check {
+     display: none;
+ }
+
+
+
+ body {
+     overflow: hidden;
+ }
+
+ .myVideo {
+     position: fixed;
+     right: 0;
+     bottom: 0;
+     min-width: 100%;
+     min-height: 100%;
+ }
+.container{
+    width: 50em;
+    height: 50em;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.226);
+    position: absolute;
+    margin-left: 40em;
+    margin-top: 6em;
+}
+.container h1{
+    font-size: 50px;
+    padding-left: 0.4em;
+    display: block;
+    position: absolute;
+}
+.container h1 .color{
+    color: rgb(255, 115, 0);
+}
+.informatie{
+    height: 11em;
+    width: 50em;
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.555);
+}
+.informatie i{
+ font-size: 2em;
+ color: rgb(255, 115, 0);
+ padding-left: 0.5em;
+ margin-top: 1.5em;
+ transition: 0.5s ease all;
+}
+.informatie i:hover{
+    color: rgba(20, 17, 17, 0.493);
+    cursor: pointer;
+}
+.informatie i span{
+color: black;
+}
+.informatie .fa-globe{
+grid-column-start: 1;
+grid-row-start: 3;
+
+}
+.informatie .fa-birthday-cake{
+   grid-column-start: 2;
+   grid-row-end: 3;
+}
+.informatie .fa-map-marker-alt{
+    grid-row-start: 2;
+}
+.informatie .fa-school{
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+.container .midpart h2{
+    font-size: 2em;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    color: rgb(0, 0, 0);
+}
+.container .midpart h2 .secondH{
+  padding-left: 7em;
+}
+hr{
+    margin-left: 2em;
+    width: 45em;
+}
+.container .skills {
+    height: 7em;
+    font-family:serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    padding-top: 1em;
+    padding-left: 2em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+}
+.container .skills p{
+   background-color: rgb(255, 115, 0);
+   width: 7em;
+   margin: 3px;
+   border-radius: 6px;
+   padding-top: .3em;
+   padding-left: .3em;
+}
+
+.container .skills p:nth-child(4){
+    grid-row-start: 1;
+    grid-column-start: 2;
+    margin-left: -14em;
+}
+.container .skills p:nth-child(3){
+    margin-left: -14em;
+    width: 3em;
+    padding-top: .7em;
+}
+.container .skills p:nth-child(6){
+    margin-left: -14em;
+    width: 5em;
+}
+.container .taals{
+ position: absolute;
+ margin-left: 35em;
+ margin-top: -7em;
+}
+.container .taals article{
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.521);
+    border-radius: 5px;
+}
+.container .text1 h3{
+    padding-top: .5em;
+    padding-left: 2em;
+    font-size: 2em;
+}
+.container .text1 p{
+    font-size: 1.2em;
+    font-family: serif;
+    font-weight: bold;
+    padding-left: 1.5em;
+    padding-top: 1em;
+}

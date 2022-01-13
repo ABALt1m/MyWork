@@ -1,0 +1,224 @@
+ * {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+ }
+
+ .sidebar {
+     position: fixed;
+     left: -13.095861707700367vw;
+     width: 13.095861707700367vw;
+     height: 100%;
+     transition: all .9s ease;
+     background-position: center;
+ }
+
+ .sidebar header {
+
+     font-size: 25px;
+     color: rgb(255, 215, 128);
+     padding-left: 3vw;
+     line-height: 8.25593395252838vh;
+     user-select: none;
+     font-family: fantasy;
+     font-weight: lighter;
+     background-color: rgba(255, 255, 255, 0.144);
+ }
+
+ .sidebar ul a {
+     display: block;
+     height: 100%;
+     width: 100%;
+     line-height: 23.21981424148607vh;
+     font-size: 40px;
+     color: rgb(255, 174, 0);
+     padding-left: 2.0833333333333335vw;
+     box-sizing: border-box;
+     transition: .4s;
+     background-color: rgba(255, 255, 255, 0.144);
+ }
+
+ ul li:hover a {
+     padding-left: 2.6041666666666665vw;
+     color: rgb(247, 199, 111);
+     background-color: rgba(138, 137, 137, 0.397);
+     border: none;
+     border-radius: 20%;
+     box-shadow: 0 0 10px rgb(247, 199, 111);
+ }
+
+ .sidebar ul a i {
+     margin-right: 0.8333333333333334vw;
+ }
+
+ #check {
+     display: none;
+ }
+
+ label #btn,
+ label #cancel {
+     position: absolute;
+     cursor: pointer;
+     background: rgb(236, 144, 4);
+     border-radius: 3px;
+ }
+
+ label #btn {
+     left: 2vw;
+     top: 2.5vh;
+     font-size: 35px;
+     color: rgb(12, 3, 3);
+     padding: 6px 12px;
+     transition: all .5s;
+ }
+
+ label #cancel {
+     z-index: 1111;
+     left: -198px;
+     top: 30px;
+     font-size: 15px;
+     color: #000000;
+     padding: 4px 9px;
+     transition: all .5s ease;
+ }
+
+ #check:checked~.sidebar {
+     left: 0;
+ }
+
+ #check:checked~label #cancel {
+     left: 10.9vw;
+ }
+
+ #check:checked~label #btn {
+     visibility: hidden;
+     transition: all 0.1s ease-in;
+ }
+
+ label #btn:hover {
+     color: white;
+ }
+
+ label #cancel:hover {
+     color: white;
+
+ }
+
+ body {
+     overflow: hidden;
+ }
+
+ .tooltip p {
+     color: rgb(241, 185, 0);
+     position: absolute;
+     text-align: center;
+     left: 30%;
+     margin-top: 5%;
+     font-family: Anton, sans serif;
+     font-size: 70px;
+     transition: ease 0.5s;
+     border-bottom: 1px dotted rgb(236, 198, 93);
+     border-top: 1px dotted rgb(0, 147, 233);
+     border-radius: 40px;
+     border-width: 3px;
+
+ }
+
+ .tooltip p:hover {
+     color: rgb(248, 222, 134);
+     cursor: default;
+     padding-top: 15px;
+     cursor: pointer;
+     letter-spacing: 2px;
+ }
+
+ .tooltip .tooltiptext {
+     font-size: 40px;
+     visibility: hidden;
+     background-color: rgba(0, 0, 0, 0.226);
+     color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 5px 0;
+     border-radius: 20px;
+     position: absolute;
+     padding: 0 5%;
+     width: 100vh;
+     top: 30%;
+     left: 20%;
+     box-shadow: 0 0 10px rgb(0, 0, 0);
+
+ }
+
+ .tooltip:hover .tooltiptext {
+     visibility: visible;
+     width: 100vh;
+ }
+
+ .tooltip .tooltiptext {
+     width: 120px;
+     top: 30%;
+     left: 25%;
+     margin-left: -60px;
+ }
+
+
+ .myVideo {
+     position: fixed;
+     right: 0;
+     bottom: 0;
+     min-width: 100%;
+     min-height: 100%;
+ }
+
+
+
+ .Logo img {
+     position: fixed;
+     width: 10vh;
+     top: 88%;
+     left: 93%;
+     transition: 0.2s ease;
+     border: none;
+ }
+
+ .Logo img:hover {
+     padding: 5px;
+     box-shadow: 0 0 10px;
+     border: 2px solid rgb(248, 222, 134);
+     border-radius: 50%;
+ }
+
+ .socials .insta a {
+     border-radius: 23px;
+     font-size: 3.5rem;
+     position: fixed;
+     top: 25px;
+     left: 88%;
+     padding-top: 10px;
+     transition: 0.5s all ease;
+     color: rgb(248, 222, 134);
+
+ }
+
+ .socials .twitter a {
+     border-radius: 23px;
+     font-size: 3.5rem;
+     position: fixed;
+     top: 25px;
+     left: 94%;
+     padding-top: 10px;
+     transition: 0.5s all ease;
+     color: rgb(248, 222, 134);
+ }
+
+ .twitter a:hover {
+     font-size: 4.5rem;
+     color: rgb(62, 104, 240);
+ }
+
+ .insta a:hover {
+     font-size: 4.5rem;
+     color: rgb(62, 104, 240);
+ }
+ 

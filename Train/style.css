@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 99%;
+    height: 200vh;
+    background-color: rgb(253, 253, 253);
+    margin-left: 0.5vw;
+    margin-top: 0.5vh;
+    border: 2px solid gray;
+}
+
+header h1 {
+    background-color: rgb(255, 255, 255);
+    padding-left: 10vw;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.164);
+}
+
+nav .navigation {
+    margin-left: 25vw;
+    margin-top: 1vh;
+}
+
+nav .navigation a {
+    margin: 5vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+nav .navigation a:hover {
+    color: rgb(0, 185, 247)
+}
+
+main .image img {
+    margin-top: 1vh;
+    width: 99vw;
+    height: 50vh;
+    position: relative;
+}
+
+main .image .text {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 40vh;
+    width: 15vw;
+    right: 5vw;
+    padding: 0.5%;
+}
+
+main .art {
+    width: 50vw;
+    height: 120vh;
+    background-color: aqua;
+    margin-left: 17vw;
+}
+
+main .art .article1 h1 {
+    background-color: rgb(97, 97, 97);
+    width: 20vw;
+    padding-left: 5vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+
+main .art .article1 .paragraph1 {
+    left: 0;
+    width: 27vw;
+    padding-left: 2vw;
+    padding-top: 2vh;
+    background-color: gray;
+}
+
+main .art .article1 img {
+    width: 29vw;
+    height: 30vh;
+    float: left;
+    margin-top: 4vh;
+}
+
+main .art .article1 h4 {
+    margin-top: 35vh;
+    margin-left: 10vw;
+}
+
+main .art .article2 h1 {
+    margin-left: 33vw;
+    margin-top: -77vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    
+    
+}
+
+main .art .article2 .para2 {
+    background-color: gray;
+    float: left;
+    width: 15vw;
+    margin-left: 2vw;
+    margin-top: -33vh;
+    font-size: 122.7%;
+}
+main .art .article2 h1 span{
+    margin-left: 3vw;
+}
+
+
+

@@ -1,0 +1,130 @@
+ * {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+ }
+
+ .sidebar {
+     position: fixed;
+     width: 250px;
+     height: 100%;
+     transition: all .5s ease;
+     background-position: center;
+ }
+
+ .sidebar header {
+     font-size: 25px;
+     color: #e09a58;
+     text-align: center;
+     line-height: 80px;
+     user-select: none;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     background-color: rgba(255, 255, 255, 0.144);
+
+ }
+
+
+
+ .sidebar ul a {
+     display: block;
+     height: 100%;
+     width: 100%;
+     line-height: 225px;
+     font-size: 40px;
+     color: rgb(214, 207, 164);
+     padding-left: 20px;
+     box-sizing: border-box;
+     transition: .4s;
+     background-color: rgba(255, 255, 255, 0.144);
+ }
+
+ ul li:hover a {
+     padding-left: 50px;
+     color: rgb(255, 94, 0);
+     background-color: rgba(138, 137, 137, 0.397);
+     border: none;
+     border-radius: 20%;
+     box-shadow: 0 0 10px orangered;
+
+ }
+
+ .sidebar ul a i {
+     margin-right: 16px;
+ }
+
+ #check {
+     display: none;
+ }
+
+ body {
+     overflow: hidden;
+ }
+
+ .myVideo {
+     position: fixed;
+     right: 0;
+     bottom: 0;
+     min-width: 100%;
+     min-height: 100%;
+ }
+
+ .gallery img {
+     flex: 0 0 300px;
+     width: 50em;
+     justify-content: center;
+     display: inline-flex;
+     scroll-snap-align: start;
+ }
+
+ .gallery {
+     width: 50em;
+     height: 35em;
+     background-color: yellow;
+     display: flex;
+     overflow-x: auto;
+     margin-left: 65em;
+     margin-top: 12em;
+     scroll-snap-type: x mandatory;
+     scroll-behavior: smooth;
+     position: absolute;
+     box-shadow: 0 0 50px burlywood;
+ }
+
+ .nav a {
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     margin: 1.5em;
+     font-size: 1.5em;
+     display: inline-flex;
+     background-color: black;
+     height: 1.3em;
+     width: 1em;
+     padding-top: 5px;
+     padding-left: 0.5em;
+     border-radius: 20px;
+     transition: 1.2s all ease;
+ }
+
+ .nav {
+     height: 5em;
+     width: 30em;
+     margin-left: 75em;
+     margin-top: 47em;
+     position: absolute;
+
+ }
+
+ .nav a:hover {
+     background-color: burlywood;
+
+ }
+
+ ::-webkit-scrollbar {
+     display: none;
+ }
+
+ 
+ 
+ 
