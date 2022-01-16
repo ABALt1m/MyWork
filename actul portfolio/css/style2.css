@@ -25,8 +25,6 @@
 
  }
 
-
-
  .sidebar ul a {
      display: block;
      height: 100%;
@@ -81,7 +79,6 @@
  .gallery {
      width: 50em;
      height: 35em;
-     background-color: yellow;
      display: flex;
      overflow-x: auto;
      margin-left: 65em;
@@ -90,6 +87,7 @@
      scroll-behavior: smooth;
      position: absolute;
      box-shadow: 0 0 50px burlywood;
+     
  }
 
  .nav a {
@@ -118,13 +116,84 @@
 
  .nav a:hover {
      background-color: burlywood;
-
  }
+
 
  ::-webkit-scrollbar {
      display: none;
  }
 
+ .gallery .info1 h1{
+     background-color: rgba(0, 0, 0, 0.623);
+     color: white;
+     padding-left: 10em;
+     position: absolute;
+     width: 15em;
+     transition: 0.4s all ease;
+ }
+ .info1 h1:hover{
+     color: orange;
+     cursor: pointer;
+ }
+ .gallery .info1 #img1{
+   height: 35em;
+ }
  
+ /*image 2*/ 
+ .gallery .info2 h1 {
+     background-color: rgba(0, 0, 0, 0.623);
+     color: white;
+     padding-left: 10em;
+     position: absolute;
+     width: 15em;
+ transition: 0.4s all ease;
+ }
+
+ .info2 h1:hover {
+     color: orange;
+     cursor: pointer;
+ }
+
+ .gallery .info2 #img2 {
+     height: 35em;
+ }
+ /*image 4*/
+ .gallery .info3 h1 {
+     background-color: rgba(0, 0, 0, 0.623);
+     color: white;
+     padding-left: 10em;
+     position: absolute;
+     width: 15em;
+ transition: 0.4s all ease;
+ }
+
+ .info3 h1:hover {
+     color: orange;
+     cursor: pointer;
+ }
+
+ .gallery .info3 #img3 {
+     height: 35em;
+ }
  
- 
+ /*image 4*/
+ .gallery .info4 h1 {
+     background-color: rgba(0, 0, 0, 0.623);
+     color: white;
+     padding-left: 10em;
+     position: absolute;
+     width: 15em;
+      transition: 0.4s all ease;
+ }
+
+ .info4 h1:hover {
+     color: orange;
+     cursor: pointer;
+     
+ }
+
+ .gallery .info4 #img4 {
+     height: 35em;
+ }
+
+
