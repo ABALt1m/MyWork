@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projects </title>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style2.css">
     <link rel="icon" href="Wdragon.png">
@@ -53,18 +53,67 @@
 
     <div class="gallery">
         <div class="info1">
-            <h1> More info</h1> <img id="img1" src="./img/asta.jpg" alt="">
+            <button id="open1" onclick="toggle()"> More info</button> <img id="img1" src="./img/asta.jpg" alt="">
         </div>
         <div class="info2">
-            <h1> More info</h1> <img id="img2" src="./img/blue.jpg" alt="">
+            <button id="open2" onclick="toggle2()">More info</button> <img id="img2" src="./img/blue.jpg" alt="">
         </div>
         <div class="info3">
-            <h1> More info</h1> <img id="img3" src="./img/zenitsu.png" alt="">
+            <button id="open3" onclick="toggle3()">More info</button> <img id="img3" src="./img/zenitsu.png" alt="">
         </div>
         <div class="info4">
-            <h1> More info</h1> <img id="img4" src="./img/MyPC.jpg" alt="">
+            <button id="open4">More info</button> <img id="img4" src="./img/MyPC.jpg" alt="">
+        </div>
+
+    </div>
+    <!-- info text -->
+    <div class="text1_container" id="popup1">
+        <div class="text1">
+            <h1> ASTA </h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nemo delectus dolor voluptatem veniam
+                minima cum nobis, quaerat culpa molestiae pariatur dolore architecto fugit assumenda impedit nostrum
+                ducimus. Rem, aliquid! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum doloribus vitae
+                expedita optio aliquam aperiam commodi nemo sit, accusantium modi sed quaerat reprehenderit facilis
+                velit. Quaerat eum dolore quam aliquid! </p>
+            <button id="close1" onclick="toggle()"> Close </button>
         </div>
     </div>
+    <!--info text 2-->
+    <div class="text2_container" id="popup2">
+        <div class="text2">
+            <h1> MHA Academia </h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nemo delectus dolor voluptatem
+                veniam
+                minima cum nobis, quaerat culpa molestiae pariatur dolore architecto fugit assumenda impedit
+                nostrum
+                ducimus. Rem, aliquid! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum doloribus
+                vitae
+                expedita optio aliquam aperiam commodi nemo sit, accusantium modi sed quaerat reprehenderit
+                facilis
+                velit. Quaerat eum dolore quam aliquid! </p>
+            <button id="close2" onclick="toggle2()"> Close </button>
+        </div>
+    </div>
+    <!-- info text 3-->
+    <div class="text3_container" id="popup3">
+        <div class="text3">
+            <h1> ZENITSU </h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nemo delectus dolor
+                voluptatem
+                veniam
+                minima cum nobis, quaerat culpa molestiae pariatur dolore architecto fugit assumenda impedit
+                nostrum
+                ducimus. Rem, aliquid! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
+                doloribus
+                vitae
+                expedita optio aliquam aperiam commodi nemo sit, accusantium modi sed quaerat reprehenderit
+                facilis
+                velit. Quaerat eum dolore quam aliquid! </p>
+            <button id="close3" onclick="toggle3()"> Close </button>
+        </div>
+    </div>
+
+    <!--navigation buttons for the gallery-->
 
     <div class="nav">
         <a href="#img1">1</a>
@@ -73,7 +122,8 @@
         <a href="#img4">4</a>
     </div>
 
-    <script src="/java/main2.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="./java/main.js"></script>
 </body>
 
 </html>

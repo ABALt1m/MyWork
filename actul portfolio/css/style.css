@@ -135,7 +135,6 @@
 
  .tooltip .tooltiptext {
      font-size: 40px;
-     visibility: hidden;
      background-color: rgba(0, 0, 0, 0.226);
      color: rgb(255, 255, 255);
      text-align: center;
@@ -147,20 +146,18 @@
      top: 30%;
      left: 20%;
      box-shadow: 0 0 10px rgb(0, 0, 0);
-
+    visibility: hidden;
+    transition: .6s all ease;
+    opacity: 0;
  }
 
  .tooltip:hover .tooltiptext {
      visibility: visible;
-     width: 100vh;
+    opacity: 1;
+
  }
 
- .tooltip .tooltiptext {
-     width: 120px;
-     top: 30%;
-     left: 25%;
-     margin-left: -60px;
- }
+
 
 
  .myVideo {
@@ -174,16 +171,15 @@
 
 
  .Logo img {
-     position: fixed;
+     position: absolute;
      width: 10vh;
      top: 88%;
      left: 93%;
      transition: 0.2s ease;
-     border: none;
  }
 
  .Logo img:hover {
-     padding: 5px;
+     box-shadow: 0 0 50px yellow;
      box-shadow: 0 0 10px;
      border: 2px solid rgb(248, 222, 134);
      border-radius: 50%;

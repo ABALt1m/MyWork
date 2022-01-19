@@ -81,13 +81,13 @@
      height: 35em;
      display: flex;
      overflow-x: auto;
-     margin-left: 65em;
+     margin-left: 40em;
      margin-top: 12em;
      scroll-snap-type: x mandatory;
      scroll-behavior: smooth;
      position: absolute;
      box-shadow: 0 0 50px burlywood;
-     
+
  }
 
  .nav a {
@@ -108,7 +108,7 @@
  .nav {
      height: 5em;
      width: 30em;
-     margin-left: 75em;
+     margin-left: 50em;
      margin-top: 47em;
      position: absolute;
 
@@ -123,33 +123,42 @@
      display: none;
  }
 
- .gallery .info1 h1{
+ /* img1*/
+ .gallery .info1 #open1 {
      background-color: rgba(0, 0, 0, 0.623);
      color: white;
-     padding-left: 10em;
      position: absolute;
-     width: 15em;
+     width: 33.3em;
      transition: 0.4s all ease;
+     height: 2em;
+     font-size: 1.5em;
+     font-family: serif;
+     border: rgba(0, 0, 0, 0.986);
  }
- .info1 h1:hover{
+
+ .info1 #open1:hover {
      color: orange;
      cursor: pointer;
  }
- .gallery .info1 #img1{
-   height: 35em;
- }
- 
- /*image 2*/ 
- .gallery .info2 h1 {
-     background-color: rgba(0, 0, 0, 0.623);
-     color: white;
-     padding-left: 10em;
-     position: absolute;
-     width: 15em;
- transition: 0.4s all ease;
+
+ .gallery .info1 #img1 {
+     height: 35em;
  }
 
- .info2 h1:hover {
+ /*image 2*/
+ .gallery .info2 #open2 {
+     background-color: rgba(0, 0, 0, 0.623);
+     color: white;
+     position: absolute;
+     width: 33.3em;
+     transition: 0.4s all ease;
+     height: 2em;
+     font-size: 1.5em;
+     font-family: serif;
+     border: rgba(0, 0, 0, 0.986);
+ }
+
+ .info2 #open2:hover {
      color: orange;
      cursor: pointer;
  }
@@ -157,17 +166,21 @@
  .gallery .info2 #img2 {
      height: 35em;
  }
- /*image 4*/
- .gallery .info3 h1 {
+
+ /*image 3*/
+ .gallery .info3 #open3 {
      background-color: rgba(0, 0, 0, 0.623);
      color: white;
-     padding-left: 10em;
      position: absolute;
-     width: 15em;
- transition: 0.4s all ease;
+     width: 33.4em;
+     transition: 0.4s all ease;
+     height: 2em;
+     font-size: 1.5em;
+     font-family: serif;
+     border: rgba(0, 0, 0, 0.986);
  }
 
- .info3 h1:hover {
+ .info3 #open3:hover {
      color: orange;
      cursor: pointer;
  }
@@ -175,25 +188,151 @@
  .gallery .info3 #img3 {
      height: 35em;
  }
- 
+
  /*image 4*/
- .gallery .info4 h1 {
+ .gallery .info4 #open4 {
      background-color: rgba(0, 0, 0, 0.623);
-     color: white;
-     padding-left: 10em;
+     color: rgb(255, 255, 255);
      position: absolute;
-     width: 15em;
-      transition: 0.4s all ease;
+     width: 35em;
+     transition: 0.4s all ease;
+     height: 2em;
+     font-size: 1.5em;
+     font-family: serif;
+     border: black;
  }
 
- .info4 h1:hover {
+ .info4 #open4:hover {
      color: orange;
      cursor: pointer;
-     
  }
 
  .gallery .info4 #img4 {
      height: 35em;
  }
 
+ /*texts on click*/
+ .text1_container {
+     background-color: rgba(0, 0, 0, 0.842);
+     position: absolute;
+     margin-left: 20em;
+     width: 70vw;
+     height: 78vh;
+     margin-top: 6em;
+     z-index: 10;
+     transition: 200ms ease-in-out;
+     visibility: hidden;
+     opacity: 0;
+ }
+ #popup1.active{
+     visibility: visible;
+     opacity: 1;
+ }
 
+ .text1_container .text1 h1 {
+     color: white;
+     font-size: 4em;
+     text-align: center;
+ }
+
+ .text1_container .text1 p {
+     color: rgb(214, 207, 164);
+     font-size: 2em;
+     text-align-last: left;
+ }
+
+ .text1_container .text1 #close1 {
+     font-size: 2em;
+     color: rgb(0, 0, 0);
+     background-color: rgb(214, 207, 164);
+     margin-left: 40%;
+     margin-top: 6em;
+     width: 5em;
+     height: 2em;
+     cursor: pointer;
+ }
+
+
+ /* text 2 */ 
+.text2_container {
+    background-color: rgba(0, 0, 0, 0.842);
+    position: absolute;
+    margin-left: 20em;
+    width: 70vw;
+    height: 78vh;
+    margin-top: 6em;
+    z-index: 10;
+    transition: 200ms ease-in-out;
+   opacity: 0;
+   visibility: hidden;
+}
+
+#popup2.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.text2_container .text2 h1 {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+
+.text2_container .text2 p {
+    color: rgb(214, 207, 164);
+    font-size: 2em;
+    text-align-last: left;
+}
+
+.text2_container .text2 #close2 {
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(214, 207, 164);
+    margin-left: 40%;
+    margin-top: 6em;
+    width: 5em;
+    height: 2em;
+    cursor: pointer;
+}
+
+/* text 3*/
+.text3_container {
+    background-color: rgba(0, 0, 0, 0.842);
+    position: absolute;
+    margin-left: 20em;
+    width: 70vw;
+    height: 78vh;
+    margin-top: 6em;
+    z-index: 10;
+    transition: 200ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#popup3.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.text3_container .text3 h1 {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+
+.text3_container .text3 p {
+    color: rgb(214, 207, 164);
+    font-size: 2em;
+    text-align-last: left;
+}
+
+.text3_container .text3 #close3 {
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(214, 207, 164);
+    margin-left: 40%;
+    margin-top: 6em;
+    width: 5em;
+    height: 2em;
+    cursor: pointer;
+}
