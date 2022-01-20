@@ -336,3 +336,112 @@
     height: 2em;
     cursor: pointer;
 }
+/*text 4*/
+.text4_container {
+    background-color: rgba(0, 0, 0, 0.842);
+    position: absolute;
+    margin-left: 20em;
+    width: 70vw;
+    height: 78vh;
+    margin-top: 6em;
+    z-index: 10;
+    transition: 200ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#popup4.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.text4_container .text4 h1 {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+
+.text4_container .text4 p {
+    color: rgb(214, 207, 164);
+    font-size: 2em;
+    text-align-last: left;
+}
+
+.text4_container .text4 #close4 {
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(214, 207, 164);
+    margin-left: 40%;
+    margin-top: 6em;
+    width: 5em;
+    height: 2em;
+    cursor: pointer;
+}
+/*javascript toggle*/
+#open5{
+ position: absolute;
+ background-color: rgba(0, 0, 0, 0.671);
+ height: 2em;
+ width: 10em;
+ font-size: 2em;
+ margin-left: 45%;
+ margin-top: 2em;
+ color: white;
+ border: 1px solid rgba(0, 0, 0, 0);
+ cursor: pointer;
+ transition: .3s all ease-in-out;
+}
+#open5:hover{
+    box-shadow: 0 0 20px blanchedalmond;
+    height: 2.5em;
+    width: 10.5;
+}
+.JScontainer {
+ position: absolute;
+ width: 100vw;
+ height: 100vh;
+ background-color: rgba(0, 0, 0, 0.644);
+ z-index: 15;
+ opacity: 0;
+ visibility: hidden;
+ transition: .3s all ease-in-out;
+}
+.imgContainer{
+    width: fit-content;
+    margin-left: 30em;
+    margin-top: 10em;
+}
+.JScontainer .imgContainer img{
+    height: 25em;
+    width: 30em;
+    border: 1px solid rgb(214, 207, 164);
+    display: inline-block;
+    margin: 1em;
+    transition: 0.5s all ease;
+}
+.JScontainer .imgContainer img:nth-child(1):hover{
+    width: 40em;
+    height: 35em;
+}
+.JScontainer .imgContainer img:nth-child(2):hover {
+    width: 40em;
+    height: 35em;
+}
+.JScontainer button{
+   font-size: 2em;
+   color: rgb(0, 0, 0);
+   background-color: rgb(214, 207, 164);
+   margin-left:48%;
+   margin-top: 2em;
+   width: 5em;
+   height: 2em;
+   cursor: pointer;
+   transition: 0.3s all ease-in-out;
+}
+.JScontainer button:hover{
+    box-shadow: 0 0 20px rgb(214, 207, 164);
+}
+.JScontainer.active{
+    opacity: 1;
+    visibility: visible;
+}
