@@ -46,6 +46,8 @@
      border: none;
      border-radius: 20%;
      box-shadow: 0 0 10px rgb(247, 199, 111);
+     text-shadow: 0 0 20px rgb(255, 174, 0);
+
  }
 
  .sidebar ul a i {
@@ -130,7 +132,7 @@
      cursor: default;
      padding-top: 15px;
      cursor: pointer;
-
+     text-shadow: 0 0 20px rgb(236, 198, 93);
  }
 
  .tooltip .tooltiptext {
@@ -183,6 +185,7 @@
      box-shadow: 0 0 10px;
      border: 2px solid rgb(248, 222, 134);
      border-radius: 50%;
+     box-shadow: 0 0 20px rgb(255, 251, 0);
  }
 
  .socials .insta a {
@@ -193,7 +196,7 @@
      left: 88%;
      padding-top: 10px;
      transition: 0.5s all ease;
-     color: rgb(248, 222, 134);
+     color: rgb(134, 145, 248);
 
  }
 
@@ -205,15 +208,17 @@
      left: 94%;
      padding-top: 10px;
      transition: 0.5s all ease;
-     color: rgb(248, 222, 134);
+     color: rgb(134, 145, 248);
  }
 
  .twitter a:hover {
      font-size: 4.5rem;
-     color: rgb(62, 104, 240);
+     color: rgb(240, 184, 62);
+     
  }
 
  .insta a:hover {
      font-size: 4.5rem;
-     color: rgb(62, 104, 240);
+     color: rgb(240, 184, 62);
  }
+ 

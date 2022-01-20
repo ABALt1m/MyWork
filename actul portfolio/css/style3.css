@@ -102,7 +102,7 @@
  transition: 0.5s ease all;
 }
 .informatie i:hover{
-    color: rgba(20, 17, 17, 0.493);
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 .informatie i span{
@@ -188,20 +188,23 @@ hr{
     font-size: 2em;
 }
 .container .text1 p{
-    font-size: 1.2em;
+    font-size: 2em;
     font-family: serif;
     font-weight: bold;
     padding-left: 1.5em;
     padding-top: 1em;
+    color: rgba(0, 0, 0, 0.993);
 }
 .container .photo img{
-    width: 15em;
-    height: 18em;
-    margin-top: 1.6em;
-    margin-left: 17em;
+    width: 9em;
+    height: 9em;
+    margin-top: -43em;
+    margin-left: 40.5em;
     border-radius: 50px;
     box-shadow: 0 0 50px rgba(255, 255, 255, 0);
     transition: .5s all ease;
+    position: absolute;
+    box-shadow: 0 0 20px rgb(255, 115, 0);
 }
 .container .photo img:hover{
     box-shadow: 0 0 50px rgb(255, 115, 0);

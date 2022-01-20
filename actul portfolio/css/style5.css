@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    transition: all .5s ease;
+    background-position: center;
+}
+
+.sidebar header {
+    font-size: 30px;
+    color: #ecb913;
+    text-align: center;
+    line-height: 80px;
+    user-select: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.144);
+    text-shadow: 0 0 20px #f3c600;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 225px;
+    font-size: 40px;
+    color: #ecb913;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: .4s;
+    background-color: rgba(255, 255, 255, 0.144);
+}
+
+ul li:hover a {
+    padding-left: 50px;
+    color: rgb(221, 92, 182);
+    background-color: rgba(138, 137, 137, 0.397);
+    border: none;
+    border-radius: 20%;
+    text-shadow: 0 0 20px rgb(243, 174, 47);
+}
+
+.sidebar ul a i {
+    margin-right: 16px;
+}
+
+#check {
+    display: none;
+}
+
+
+
+body {
+    overflow: hidden;
+}
+
+.myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+/*contact forum */
+
+.container {
+    width: 55em;
+    height: 50em;
+    background-color: rgba(255, 208, 0, 0.459);
+    position: absolute;
+    margin-left: 35em;
+    margin-top: 5em;
+    border-radius: 20px;
+}
+
+.container h1 {
+    font-size: 2.5em;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    padding-left: 1.5em;
+}
+
+input[type=text], select, textarea {
+    width: 60%;
+    height: 5em;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1em;
+    margin-left: 11em;
+    font-size: 1.2em;
+    background-color: rgba(255, 255, 255, 0.61);
+}
+
+.container label{
+    font-size: 3em;
+    margin-left: 7.5em;
+    margin-top: .2em;
+    float: left;
+}
+.container #subject{
+    height: 10em;
+    
+}
+.container #submit{
+    margin-top: 8em;
+    position: fixed;
+    margin-left: -10em;
+    font-size: 2em;
+    background-color: rgba(255, 255, 255, 0.61);
+    border-radius: 10px;
+    border: none;
+    padding:  5px 5px 5px 5px;
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
+.container #submit:hover{
+    background-color: rgba(255, 255, 0, 0.5);
+}
