@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-size: 40px;
+    background-color: rgb(71, 71, 71);
+    width: 80vw;
+    margin: auto;
+    display: flex;
+}
+
+.container {
+    background-color: rgba(247, 247, 247, 0.5);
+    width: 100vw;
+    height: 30vh;
+    font-size: 1.5em;
+    margin-top: 20%;
+    padding: .6em;
+    position: relative;
+    border-radius: 20px;
+}
+
+.quotes{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s all ease-out;
+}
+.quotes.active{
+    opacity: 1;
+    visibility: visible;
+
+}
+.source {
+    font-size: .7em;
+    text-shadow: 0 0 20px rgb(61, 65, 58);
+    padding-top: 1em;
+    position: absolute;
+    opacity: 1;
+}
+
+.container button {
+    width: 10em;
+    display: block;
+    margin-top: 1em;
+    position: absolute;
+    display: fixed;
+    height: 5em;
+    width: 10em;
+    bottom: 3em;
+    right: 4em;
+    background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+    font-weight: normal;
+    font-size: .3em;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+.container button:hover {
+    cursor: pointer;
+}
