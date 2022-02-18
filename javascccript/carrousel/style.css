@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    margin-left: 35%;
+    margin-top: 10%;
+    height: 30vh;
+    width: 30vw;
+}
+.nxt{
+    background-color: black;
+    width: fit-content;
+    color: aliceblue;
+    font-size: 30px;
+    margin-left: 57.7%;
+    cursor: pointer;
+}
+.prev{
+    background-color: black;
+    width: fit-content;
+    color: aliceblue;
+    font-size: 30px;
+    margin-left: 35%;
+    margin-top: -1.1em;
+}
