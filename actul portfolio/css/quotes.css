@@ -25,13 +25,10 @@ body {
 
 .quotes{
     opacity: 0;
-    visibility: hidden;
     transition: 0.2s all ease-out;
 }
 .quotes.active{
     opacity: 1;
-    visibility: visible;
-
 }
 .source {
     font-size: .7em;
