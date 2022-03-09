@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,31 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
+    <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">&#8666;</button>
+        <button class="carousel-button next" data-carousel-button="next">&#8667;</button>
+        <ul data-slides>
+            <li class="slide" data-active>
+                <img src="img1.jpg" alt="1">
+            </li>
+            <li class="slide">
+                <img src="img2.jpg" alt="2">
+            </li>
+            <li class="slide">
+                <img src="img3.jpg" alt="3"></li>
+            <li class="slide">
+                <img src="img4.jpg" alt="4">
+            </li>
+            <li class="slide">
+                <img src="img5.jpg" alt="">
+            </li>
+        </ul>
+    </div>
 
-    <img name="slide"  />
-        <div class="nxt" id="next"> 
-              Next image
-        </div>
-              <div class="prev" id="previous">
-                    Previous 
-                </div>
-   
 
-  <script src="./main.js"></script>  
+    <script src="./main.js"></script>
 </body>
+
 </html>
