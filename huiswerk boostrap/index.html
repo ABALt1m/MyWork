@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+  <div class="navbar navbar-expand-md  navbar-dark  text-white " id="navbar-dark">
+    <div class="container">
+      <a href="#" class="navbar-brand text-white font-weight-bold" style="font-size: 2.5em;"><span
+          class="text-info">e</span>Business</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu">
+        <span class="navbar-toggler-icon"></span></button>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand text-info" href="#">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- Hero -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/hero-carousel/1.jpg" class="d-block w-100 filter" alt="...">
+        <div class="carousel-caption d-flex flex-column justify-content-center h-100 " style="align-items: center;">
+          <h3>First slide label</h3>
+          <p class="display-5">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.</p>
+          <a href="#" class="btn btn-info" style="border-radius: 50px; ">Get Started</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/hero-carousel/2.jpg" class="d-block w-100 filter" alt="...">
+        <div class="carousel-caption d-flex flex-column justify-content-center h-100 " style="align-items: center;"">
+                    <h3>Second slide label</h3>
+                        <p class=" display-5">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.</p>
+          <a href="#" class="btn btn-info" style="border-radius: 50px;">Get Started</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/hero-carousel/3.jpg" class="d-block w-100 filter" alt="...">
+        <div class="carousel-caption d-flex flex-column justify-content-center h-100 " style="align-items: center;">
+          <h3>Third slide label</h3>
+          <p class=" display-5">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.</p>
+          <a href="#" class="btn btn-info" style="border-radius: 50px;">Get Started</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--       ------        -->
+  <div class="bg-light">
+    <div class="container text-center  ">
+      <br>
+
+      <div class="position-relative">
+        <h3 class="underline fw-bold "> About EBusiness</h3>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-12 col-lg-6 py-3"> <img class="img-fluid h-100" src="./img/about/1.jpg" alt=""></div>
+        <div class="col-12 col-lg-6 py-3 text-start">
+          <h3>project Maintenance</h3>
+          <br>
+
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, adipisci commodi asperiores ipsum, id
+          minima voluptatum exercitationem ipsam ea vitae itaque nemo doloremque modi, quaerat sint saepe veritatis
+          incidunt eveniet.
+          <br>
+          <br>
+          <div class="text-start">
+
+            <p> <span class="text-success">&#10003;</span> Lorem, ipsum dolor.</p>
+            <p> <span class="text-success">&#10003;</span> Lorem, ipsum.</p>
+            <p> <span class="text-success">&#10003;</span> Lorem ipsum dolor sit.</P>
+            <p> <span class="text-success">&#10003;</span> Lorem ipsum dolor siame
+            <P>
+            <p> <span class="text-success">&#10003;</span> Lorem, ipsum dolor.</li>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+  </div>
+  <!-- about Ebusiness -->
+  <div class="container text-center">
+    <div class="position-relative ">
+      <h3 class="underline fw-bold "> About EBusiness</h3>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container">
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class=" h-100">
+          <p class="bi bi-briefcase text-center display-5"></p>
+          <div class="card-body">
+            <h5 class="card-title text-center">Expert Coder</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class=" h-100">
+          <p class="bi bi-card-checklist text-center display-5"></p>
+          <div class="card-body">
+            <h5 class="card-title text-center">Creative Designer</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos tempore excepturi earum
+              aut debitis vel,</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class=" h-100">
+          <p class="bi bi-bar-chart display-5 text-center"></p>
+          <div class="card-body">
+            <h5 class="card-title text-center">Wordpress Developer</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class=" h-100">
+          <p class="bi bi-binoculars display-5 text-center"></p>
+          <div class="card-body">
+            <h5 class="card-title text-center">Social Maker </h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class=" h-100">
+          <p class="bi bi-brightness-high display-5 text-center"></p>
+          <div class="card-body">
+            <h5 class="card-title text-center">Seo Expert</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="h-100">
+          <p class="bi bi-calendar-week text-center display-5"></p>
+          <div class="card-body">
+            <h5 class="card-title text-center">24/7 Supoort</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+  </div>
+  <div class="container text-center">
+    <div class="position-relative ">
+      <h3 class="underline fw-bold "> Our Special Team</h3>
+    </div>
+  </div>
+  <br>
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./img/team/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Jhon Mickel</h5>
+            <p class="text-center">Sea </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./img/team/2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Andrew Arnold</h5>
+            <p class="text-center">web Developer</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./img/team/3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Lellien Linda</h5>
+            <p class="text-center">Web Design</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./img/team/4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Jhon Powel</h5>
+            <p class="text-center">Sea Expert</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="py-5">
+  </div>
+
+  <!-- Hero card  -->
+
+
+
+  <div class="row">
+    <!-- <div class="col-6">
+      <div class="card-group bg-success">
+        <div class="card">
+          <img src="./img/about/2.jpg" class="img-fluid card-img">
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="card-group">
+        <div class="card bg-success">
+          <img src="./img/background/reviews-bg.jpg" class="img-fluid card-img filter">
+          <div class="card-img-overlay img-text text-center container d-flex flex-column justify-content-center align-items-center">
+            <h1 class="card-title text-white me-auto ms-5"> Working With us</h1>
+            <p class="card-text text-white me-auto ms-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis enim quis elit accumsan feugiat. <br>
+            </p>
+            <button type="button" class="btn text-white border-white rounded-pill btn-lg w-25 me-auto ms-5">Contact
+              us</button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="card-group">
+      <div class="card border-0">
+        <img src="./img/about/1.jpg" style="max-height: 600px;" class="card-img" alt="...">
+        
+      </div>
+      <div class="card">
+        <img src="./img/background/reviews-bg.jpg" style="max-height: 600px;" class="card-img filter" alt="...">
+        <div class="card-img-overlay img-text text-center container d-flex flex-column justify-content-center align-items-center ">
+          <h1 class="card-title text-white me-auto ms-5 mb-5"> Working With us</h1>
+          <p class="card-text text-white me-auto ms-5 mb-5 text-start fs-3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis enim quis elit accumsan feugiat. <br>
+            consectetur adipiscing
+          </p>
+          <button type="button" class="btn text-white border-white rounded-pill btn-lg w-25 me-auto ms-5 hoverEF">Contact
+            us</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="py-5">
+  </div>
+
+  <div class="container text-center">
+    <div class="position-relative ">
+      <h3 class="underline fw-bold "> Our Portfolio</h3>
+    </div>
+  </div>
+
+  <div class="py-4">
+  </div>
+
+  <div class=" text-center">
+    <div class="col">
+      <button class="btn btn-info mx-1 px-3" style="border-radius: 20px;">ALL</button>
+      <button class="btn btn-outline-dark mx-1 px-3" style="border-radius: 20px;">APP</button>
+      <button class="btn btn-outline-dark mx-1 px-3" style="border-radius: 20px;">CARD</button>
+      <button class="btn btn-outline-dark mx-1 px-3" style="border-radius: 20px;">WEB</button>
+    </div>
+  </div>
+
+  <div class="py-4">
+  </div>
+  <!-- our portfolio  -->
+
+  <div class="container">
+    <div class="row ">
+      <div class="col-12 col-lg-4  py-3"><img class="img-fluid" src="./img/portfolio/1.jpg" alt=""></div>
+      <div class="col-12 col-lg-4  py-3"><img class="img-fluid" src="./img/portfolio/2.jpg" alt=""></div>
+      <div class="col-12 col-lg-4  py-3"><img class="img-fluid" src="./img/portfolio/3.jpg" alt=""></div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-lg-4  py-3"><img class="img-fluid" src="./img/portfolio/4.jpg" alt=""></div>
+      <div class="col-12 col-lg-4  py-3"><img class="img-fluid" src="./img/portfolio/5.jpg" alt=""></div>
+      <div class="col-12 col-lg-4  py-3"><img class="img-fluid" src="./img/portfolio/6.jpg" alt=""></div>
+    </div>
+  </div>
+
+  <div class="py-4">
+  </div>
+  <!-- pricing table -->
+
+  <div class="container text-center">
+    <div class="position-relative ">
+      <h3 class="underline fw-bold "> Pricing Table</h3>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <h2 class="text-center">Basic</h2>
+          <h5 class="text-center">$80 / Month</h5>
+          <div class="">
+            <p class="px-3"> <i class="bi bi-check-lg  text-info"></i> Online system</p>
+            <hr>
+            <p class="px-3"><i class="bi bi-x-lg text-info"></i> Full access</p>
+            <hr>
+            <p class="px-3"> <i class="bi bi-check-lg text-info"></i> Free apps</p>
+            <hr>
+            <p class="px-3"> <i class="bi bi-check-lg text-info"></i> Multiple slider</p>
+            <hr>
+            <p class="px-3 text-secondary text-decoration-line-through"> <i class="bi bi-x-lg text-secondary"></i> Free
+              domain</p>
+            <hr>
+            <p class="px-3 text-secondary text-decoration-line-through"><i class="bi bi-x-lg text-secondary"></i>
+              Support unlimited</p>
+            <hr>
+            <p class="px-3"> <i class="bi bi-check-lg text-info"></i> Payment online</p>
+            <hr>
+            <p class="px-3"> <i class="bi bi-x-lg text-info"></i> Cash back</p>
+            <hr>
+            <div class="text-center"> <a href="#" class="btn btn-dark " style="border-radius: 50px;">SIGN UP NOW</a>
+            </div>
+            <br>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <h2 class="text-center">Standard</h2>
+          <h5 class="text-center">$110 / Month</h5>
+          <div class="">
+            <p class="px-3"> <i class="bi bi-check-lg  text-info"></i> Online system</p>
+            <hr>
+            <p class="px-3"><i class="bi bi-check-lg"></i> Full access</p>
+            <hr>
+            <p class="px-3"> <i class="bi bi-check-lg text-info"></i> Free apps</p>
+            <hr>
+            <p class="px-3"> <i class="bi bi-check-lg text-info"></i> Multiple slider</p>
+            <hr>
+            <p class="px-3 text-secondary text-decoration-line-through"> <i class="bi bi-x-lg text-secondary"></i>
+              Freedomain</p>
+            <hr>
+            <p class="px-3 "><i class="bi bi-check-lg text-info"></i>
+              Support unlimited</p>
+            <hr>
+            <p class="px-3"> <i class="bi bi-check-lg text-info"></i> Payment online</p>
+            <hr>
+            <p class="px-3 text-decoration-line-through text-secondary"> <i class="bi bi-x-lg text-secondary"></i> Cash
+              back
+            </p>
+            <hr>
+            <div class="text-center"> <a href="#" class="btn btn-info " style="border-radius: 50px;">SIGN UP NOW</a>
+            </div>
+            <br>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <h2 class="text-center">PREMIUM</h2>
+          <h5 class="text-center"> $150 / Month</h5>
+          <div class="">
+            <p class="px-3"> <i class="bi bi-check-lg  text-info"></i> Online system</p>
+            <hr>
+            <p class="px-3"><i class="bi bi-check-lg text-info"></i> Full access</p>
+            <hr>
+            <p class="px-3"> <i class="bi bi-check-lg text-info"></i> Free apps</p>
+            <hr>
+            <p class="px-3"> <i class="bi bi-check-lg text-info"></i> Multiple slider</p>
+            <hr>
+            <p class="px-3"> <i class="bi bi-check-lg text-info"></i> Free
+              domain</p>
+            <hr>
+            <p class="px-3"><i class="bi bi-check-lg text-info"></i>
+              Support unlimited</p>
+            <hr>
+            <p class="px-3"> <i class="bi bi-check-lg text-info"></i> Payment online</p>
+            <hr>
+            <p class="px-3"> <i class="bi bi-check-lg text-info"></i> Cash back</p>
+            <hr>
+            <div class="text-center "> <a href="#" class="btn btn-dark " style="border-radius: 50px;">SIGN UP NOW</a>
+            </div>
+            <br>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="py-4">
+  </div>
+
+  <!-- caroussel 2 -->
+
+  <div class="w-100 h-100 hero-2 ">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active d-flex justify-content-center">
+          <img src="./img/testimonials/testimonials-4.jpg" class="d-block w-25 rounded-circle " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="py-4">
+  </div>
+
+  <div class="container text-center">
+    <div class="position-relative ">
+      <h3 class="underline fw-bold "> Latest News</h3>
+    </div>
+  </div>
+  <br>
+
+  <!-- latest news -->
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class=" h-100">
+          <img src="./img/blog/1.jpg" class="card-img-top" alt="...">
+          <div>
+            <p>13 comments 2016-03-05 / 09:10:16</p>
+            <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+            <br>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi maiores perspiciatis
+              repellat reiciendis! Quae accusamus doloremque quibusdam, dignissimos quas aperiam!</p>
+          </div>
+          <br>
+          <div>
+            <a href="#" class="btn btn-lights btn-outline-dark " style="border-radius: 50px;">READ MORE</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class=" h-100">
+          <img src="./img/blog/2.jpg" class="card-img-top" alt="...">
+          <div>
+            <p>130 comments 2016-03-05 / 09:10:16</p>
+            <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+            <br>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi maiores perspiciatis
+              repellat reiciendis! Quae accusamus doloremque quibusdam, dignissimos quas aperiam!</p>
+          </div>
+          <br>
+          <div>
+            <a href="#" class="btn btn-light btn-outline-dark" style="border-radius: 50px;">READ MORE</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class=" h-100">
+          <img src="./img/blog/3.jpg" class="card-img-top" alt="...">
+          <div>
+            <p>10 comments 2016-03-05 / 09:10:16</p>
+            <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+            <br>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi maiores perspiciatis
+              repellat reiciendis! Quae accusamus doloremque quibusdam, dignissimos quas aperiam!</p>
+          </div>
+          <br>
+          <div>
+            <a href="#" class="btn btn-light btn-outline-dark" style="border-radius: 50px;">READ MORE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="py-4">
+  </div>
+
+  <!-- get a quote -->
+
+  <div class=" text-center bg-info d-flex justify-content-center align-items-center pt-4 pb-4" >
+
+    <h5 class="text-white">WELCOME TO OUR EBUSINESS COMPANY</h5>
+    <a href="#" class="btn btn-light btn-outline-light text-info fw-bold ms-5" style="border-radius: 50px;">GET A QUOTE</a>
+  </div>
+
+  <div class="py-4">
+  </div>
+
+  <!-- contact us -->
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class=" h-100">
+        <p class="bi bi-phone text-center display-5 text-info"></p>
+        <div class="card-body">
+          <h5 class="card-title text-center">call: +1 5589 55488 55</h5>
+          <p class="card-text text-center">Monday-Friday(9am-5pm)</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class=" h-100">
+        <p class="bi bi-envelope text-center display-5 text-info"></p>
+        <div class="card-body">
+          <h5 class="card-title text-center">Email:info@example.com</h5>
+          <p class="card-text text-center">WEb: www.example.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class=" h-100">
+        <p class="bi bi-geo-alt text-center display-5 text-info"></p>
+        <div class="card-body">
+          <h5 class="card-title text-center">Location:A108 Adam street</h5>
+          <p class="card-text text-center">NY 531212 , USA</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="py-4">
+  </div>
+
+  <!-- map -->
+<div class="container">
+  <div class="row ">
+    <div class="col">
+      <div class="card border-0">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.1955354318416!2d-0.12409308392208399!3d51.50962857963551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604c95f8447c3%3A0xd87b6702747e1b68!2sAdam%20House!5e0!3m2!1snl!2snl!4v1652862318650!5m2!1snl!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+      </div>
+    </div>
+    <div class="col">
+      <div class="container py-4">
+
+        <!-- Bootstrap 5 starter form -->
+        <form id="contactForm">
+      
+          <!-- Name input -->
+          <div class="mb-3">
+            <label class="form-label" for="name">Name</label>
+            <input class="form-control" id="name" type="text" placeholder="Name" />
+          </div>
+      
+          <!-- Email address input -->
+          <div class="mb-3">
+            <label class="form-label" for="emailAddress">Email Address</label>
+            <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+          </div>
+      
+          <!-- Message input -->
+          <div class="mb-3">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+          </div>
+      
+          <!-- Form submit button -->
+          <div class="d-grid">
+            <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+          </div>
+      
+        </form>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="py-4">
+  </div>
+
+  <!-- footer -->
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-3">
+      <div class="col">
+        <div class=" h-100">
+          <h1><span class="text-info">e</span>Business</h1>
+          <div>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore similique aliquid optio, quia
+              cupiditate modi veniam laudantium at deserunt praesentium?</p>
+            <br>
+          </div>
+          <div class="col display-5">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+          </div>
+          <br>
+
+        </div>
+      </div>
+
+      <div class="col">
+        <div class=" h-100">
+          <div>
+            <p class="display-5">INFORMATION</p>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi maiores perspiciatis
+              repellat reiciendis! Quae accusamus doloremque quibusdam, dignissimos quas aperiam!</p>
+          </div>
+
+          <P> <span class="text-info">Tel:</span>+123 456 789</P>
+
+          <p><Span class="text-info">Email:</Span>contact@example.com</p>
+
+          <p><span class="text-info">Working Hours</span> 9am-5pm</p>
+        </div>
+
+      </div>
+
+      <div class="col">
+        <div class=" h-100">
+          <p class="display-5">INSTAGRAM</p>
+          <div>
+            <img src="./INSTA.png" class="card-img-top" alt="...">
+          </div>
+          <br>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COPYRIGHT -->
+  <div class="bg-light text-center">
+    <p>Copyrightt <span class="fw-bold"> eBusiness</span>.
+      All rights Reserved</p>
+    <p>Designed by <span class="text-info">BootstrapMade</span></p>
+  </div>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
