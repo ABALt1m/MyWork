@@ -22,18 +22,54 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu">
         <span class="navbar-toggler-icon"></span></button>
 
-      <div class="collapse navbar-collapse" id="main-menu">
-        <ul class="navbar-nav ms-auto text-center">
-          <li class="nav-item"><a href="#" class="nav-link text-white" id="nav">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link text-white" id="nav">About</a></li>
-          <li class="nav-item"><a href="#" class="nav-link text-white" id="nav">Services</a></li>
-          <li class="nav-item"><a href="#" class="nav-link text-white" id="nav">Portfolio</a></li>
-          <li class="nav-item"><a href="#" class="nav-link text-white" id="nav">Team</a></li>
-          <li class="nav-item"><a href="#" class="nav-link text-white" id="nav">Blog</a></li>
-          <li class="nav-item"><a href="#" class="nav-link text-white" id="nav">DropDown&#8681</a></li>
-          <li class="nav-item"><a href="#" class="nav-link text-white" id="nav">Contact</a></li>
-        </ul>
-      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand text-info" href="#">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
     </div>
   </div>
   <!-- Hero -->
@@ -106,8 +142,9 @@
             <p> <span class="text-success">&#10003;</span> Lorem, ipsum dolor.</p>
             <p> <span class="text-success">&#10003;</span> Lorem, ipsum.</p>
             <p> <span class="text-success">&#10003;</span> Lorem ipsum dolor sit.</P>
-            <p> <span class="text-success">&#10003;</span> Lorem ipsum dolor siame<P>
-                <p> <span class="text-success">&#10003;</span> Lorem, ipsum dolor.</li>
+            <p> <span class="text-success">&#10003;</span> Lorem ipsum dolor siame
+            <P>
+            <p> <span class="text-success">&#10003;</span> Lorem, ipsum dolor.</li>
 
           </div>
         </div>
@@ -247,17 +284,55 @@
   <div class="py-5">
   </div>
 
+  <!-- Hero card  -->
 
-  <div class="col d-flex ">
-    <img class="img-fluid w-50 " src="./img/about/2.jpg" alt="">
-    <div
-      class="w-50 bg-about d-flex flex-column justify-content-center align-items-center text-white filter text-start">
-      <h2>Working with us</h2>
-      <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente suscipit molestias
-        voluptate.</p>
-      <button class="btn btn-outline-light text-white "> Contact Us</button>
+
+
+  <div class="row">
+    <!-- <div class="col-6">
+      <div class="card-group bg-success">
+        <div class="card">
+          <img src="./img/about/2.jpg" class="img-fluid card-img">
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="card-group">
+        <div class="card bg-success">
+          <img src="./img/background/reviews-bg.jpg" class="img-fluid card-img filter">
+          <div class="card-img-overlay img-text text-center container d-flex flex-column justify-content-center align-items-center">
+            <h1 class="card-title text-white me-auto ms-5"> Working With us</h1>
+            <p class="card-text text-white me-auto ms-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis enim quis elit accumsan feugiat. <br>
+            </p>
+            <button type="button" class="btn text-white border-white rounded-pill btn-lg w-25 me-auto ms-5">Contact
+              us</button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="card-group">
+      <div class="card border-0">
+        <img src="./img/about/1.jpg" style="max-height: 600px;" class="card-img" alt="...">
+        
+      </div>
+      <div class="card">
+        <img src="./img/background/reviews-bg.jpg" style="max-height: 600px;" class="card-img filter" alt="...">
+        <div class="card-img-overlay img-text text-center container d-flex flex-column justify-content-center align-items-center ">
+          <h1 class="card-title text-white me-auto ms-5 mb-5"> Working With us</h1>
+          <p class="card-text text-white me-auto ms-5 mb-5 text-start fs-3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis enim quis elit accumsan feugiat. <br>
+            consectetur adipiscing
+          </p>
+          <button type="button" class="btn text-white border-white rounded-pill btn-lg w-25 me-auto ms-5 hoverEF">Contact
+            us</button>
+        </div>
+      </div>
     </div>
   </div>
+
+
+
 
   <div class="py-5">
   </div>
@@ -517,10 +592,10 @@
 
   <!-- get a quote -->
 
-  <div class=" text-center bg-info d-flex justify-content-center align-items-center" style="height: 5em; gap: 6em;">
+  <div class=" text-center bg-info d-flex justify-content-center align-items-center pt-4 pb-4" >
 
     <h5 class="text-white">WELCOME TO OUR EBUSINESS COMPANY</h5>
-    <a href="#" class="btn btn-light btn-outline-light text-info fw-bold " style="border-radius: 50px;">GET A QUOTE</a>
+    <a href="#" class="btn btn-light btn-outline-light text-info fw-bold ms-5" style="border-radius: 50px;">GET A QUOTE</a>
   </div>
 
   <div class="py-4">
@@ -564,63 +639,49 @@
   </div>
 
   <!-- map -->
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <div class=>
-          <div class="card-body">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14388.021673460962!2d-74.00929810028826!3d40.70240698534191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a220cfc254b%3A0xa79d30b44cff1816!2sHitspro!5e0!3m2!1sen!2snl!4v1648843558302!5m2!1sen!2snl"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-        </div>
+<div class="container">
+  <div class="row ">
+    <div class="col">
+      <div class="card border-0">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.1955354318416!2d-0.12409308392208399!3d51.50962857963551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604c95f8447c3%3A0xd87b6702747e1b68!2sAdam%20House!5e0!3m2!1snl!2snl!4v1652862318650!5m2!1snl!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
       </div>
-      <div class="col-sm-6">
-        <div>
-          <div class="card-body">
-            <!-- Wrapper container -->
-            <div class="container py-4">
+    </div>
+    <div class="col">
+      <div class="container py-4">
 
-              <!-- Bootstrap 5 starter form -->
-              <form id="contactForm">
-
-                <!-- Name input -->
-                <div class="mb-3">
-                  <label class="form-label" for="name">Name</label>
-                  <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
-                </div>
-
-                <!-- Email address input -->
-                <div class="mb-3">
-                  <label class="form-label" for="emailAddress">Email Address</label>
-                  <input class="form-control" id="emailAddress" type="email" placeholder="Email Address"
-                    data-sb-validations="required, email" />
-                </div>
-
-                <!-- Message input -->
-                <div class="mb-3">
-                  <label class="form-label" for="message">Message</label>
-                  <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"
-                    data-sb-validations="required"></textarea>
-                </div>
-
-                <!-- Form submit button -->
-                <div class="d-flex justify-content-center">
-                  <a href="#" class="btn btn-light btn-outline-secondary text-black fw-bold "
-                    style="border-radius: 50px;">Send Message</a>
-                </div>
-
-              </form>
-
-            </div>
+        <!-- Bootstrap 5 starter form -->
+        <form id="contactForm">
+      
+          <!-- Name input -->
+          <div class="mb-3">
+            <label class="form-label" for="name">Name</label>
+            <input class="form-control" id="name" type="text" placeholder="Name" />
           </div>
-        </div>
+      
+          <!-- Email address input -->
+          <div class="mb-3">
+            <label class="form-label" for="emailAddress">Email Address</label>
+            <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+          </div>
+      
+          <!-- Message input -->
+          <div class="mb-3">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+          </div>
+      
+          <!-- Form submit button -->
+          <div class="d-grid">
+            <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+          </div>
+      
+        </form>
+      
       </div>
     </div>
   </div>
-
+</div>
 
   <div class="py-4">
   </div>
@@ -689,7 +750,7 @@
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-  </script>
+    </script>
 </body>
 
 </html>

@@ -46,19 +46,14 @@
     filter: brightness(.3);
 }
 
-.bg-about {
-    background-image: url(./img/about/2.jpg);
-    background-size: cover;
-    /* filter: brightness(.4); /
-    z-index: 0;
-}
 
-.kk p {
-    z-index: 999;
-    / filter: brightness(3); */
-    color: white;
-}
+
+
 
 .hero-2 {
     background: url(./img/background/slider-bg.jpg);
+}
+.hoverEF:hover{
+    background: rgba(255, 255, 255, 0.452);
+    
 }
